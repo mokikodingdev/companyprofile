@@ -2,7 +2,7 @@ import PortfolioCard from "../components/PortfolioCard"
 
 const Portfolio = () => {
     return (
-        <div className="w-full py-20 px-10 md:px-30 flex justify-center">
+        <div className="w-full py-20 px-5 md:px-30 flex justify-center">
             <div className="flex flex-col items-center">
                 <div className="w-full flex justify-between items-center">
                     <p className="font-semibold text-2xl">Portfolio</p>

@@ -2,7 +2,7 @@ import ServiceCard from "../components/ServiceCard"
 
 const Service = () => {
     return (
-        <div className="w-full py-20 px-10 md:px-30 bg-[url(/section-bg.svg)] mt-20 bg-cover bg-center flex flex-col justify-center items-center gap-3">
+        <div className="w-full py-10 md:py-20 px-5 md:px-30 bg-[url(/section-bg.svg)] mt-20 bg-cover bg-center flex flex-col justify-center items-center gap-3">
             <h1 className="text-3xl text-white font-semibold">Layanan Kami</h1>
             <div className="flex flex justify-center flex-wrap items-center gap-4 mt-8">
                 <ServiceCard icon="/icons/money.svg" text="Website & Aplikasi Untuk Bisnis" />

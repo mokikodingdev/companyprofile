@@ -5,7 +5,7 @@ const ConsultationForm = () => {
                 <div className="flex flex-col md:flex-row w-full justify-center items-center gap-4">
                     <div className="flex flex-col w-full md:w-1/2">
                         <label htmlFor="fullname">Nama Lengkap</label>
-                        <input type="text" name="fullname" id="fullname" className="p-2 border-1 border-gray-400 w-full rounded" />
+                        <input type="text" name="fullname" id="fullname" className="p-2 border-1 border-gray-400 w-full rounded" placeholder="ex: John Doe" />
                     </div>
                     <div className="flex flex-col w-full md:w-1/2">
                         <label htmlFor="phone">Nomor Telepon</label>
@@ -14,7 +14,7 @@ const ConsultationForm = () => {
                 </div>
                 <div className="flex flex-col">
                     <label htmlFor="consultation">Konsultasi</label>
-                    <textarea type="text" name="consultation" id="consultation" className="p-2 border-1 border-gray-400 w-full rounded" rows={5}></textarea>
+                    <textarea type="text" name="consultation" id="consultation" className="p-2 border-1 border-gray-400 w-full rounded" rows={10} placeholder="Tulis Konsultasi Di Sini"></textarea>
                 </div>
                 <div className="flex justify-center">
                     <button type="submit" className="bg-moki-blue p-3 w-full md:w-1/2 rounded text-white font-semibold">Kirim Konsultasi</button>
