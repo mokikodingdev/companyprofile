@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+@theme inline {
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+}
+
+.text-moki-blue {
+    color: #4C52DD;
+}
+
+.text-moki-orange {
+    color: #EB6A3F;
+}
+
+.bg-moki-orange {
+    background-color: #EB6A3F;
+}
+
+.bg-moki-blue {
+    background-color: #4C52DD;
+}
+
+.icon-anim-top {
+    animation: 3s ease-in-out iconAnimationTop infinite;
+}
+
+.icon-anim-bottom {
+    animation: 3s ease-in-out iconAnimationBottom infinite;
+}
+
+.icon-anim-bottom-2 {
+    animation: 3s ease-in-out iconAnimationBottom2 infinite;
+}
+
+@keyframes iconAnimationTop {
+    0% {
+        top: 30%
+    }
+    50% {
+        top: 20%
+    }
+    100% {
+        top: 30%
+    }
+}
+
+@keyframes iconAnimationBottom {
+    0% {
+        top: 55%;
+        right: 0%;
+    }
+    50% {
+        top: 45%;
+        right: 5%;
+    }
+    100% {
+        top: 55%;
+        right: 0%;
+    }
+}
+
+@keyframes iconAnimationBottom2 {
+    0% {
+        top: 55%;
+        left: 0%;
+    }
+    50% {
+        top: 45%;
+        left: 5%;
+    }
+    100% {
+        top: 55%;
+        left: 0%;
+    }
+}
