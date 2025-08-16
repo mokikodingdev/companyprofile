@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const PortfolioCard = (props) => {
     return (
-        <div className="bg-white border-1 border-gray-500 w-full md:w-1/5 rounded">
+        <div className="bg-white border-1 border-gray-400 w-40 md:w-50 h-min rounded">
             <Image
                 width={1000}
                 height={1000}

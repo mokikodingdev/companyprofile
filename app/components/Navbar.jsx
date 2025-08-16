@@ -9,7 +9,7 @@ const Navbar = () => {
     const [popupVisibility, setPopupVisibility] = useState(false)
 
     return (
-        <nav className="border-1 border-gray-300 px-10 md:px-15 py-5 flex justify-between items-center text-gray-700">
+        <nav className="border-1 border-gray-300 px-10 md:px-30 py-5 md:py-3 flex justify-between items-center text-gray-700">
             <Image
                 width={130}
                 height={130}

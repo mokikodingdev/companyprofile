@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div>
             <Navbar />
-            <div className="py-5 px-10 md:px-15 h-120 md:h-90 flex flex-col md:flex-row justify-center items-center">
+            <div className="py-20 md:py-5 px-10 md:px-30 md:h-120 flex flex-col md:flex-row justify-center items-center">
 
                 {/* LEFT */}
                 <div className="bg-white h-full w-1/5 relative hidden md:flex justify-center items-center">
